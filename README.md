@@ -19,17 +19,17 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        AboutMe ethan = new AboutMe(
+        AboutMe chybx = new AboutMe(
                 new String[]{"He", "Him"},
                 new String[]{"Java", "Javascript", "C#", "C", "Python"},
                 new String[]{"Coding", "Gaming", "Talking"},
                 "The first computer virus was created in 1983!"
         );
 
-        System.out.println("Pronouns: " + String.join(", ", ethan.pronouns));
-        System.out.println("Languages I Know: " + String.join(", ", ethan.languages));
-        System.out.println("My Hobbies: " + String.join(", ", ethan.hobbies));
-        System.out.println("Fun Fact: " + ethan.funFact);
+        System.out.println("Pronouns: " + String.join(", ", chybx.pronouns));
+        System.out.println("Languages I Know: " + String.join(", ", chybx.languages));
+        System.out.println("My Hobbies: " + String.join(", ", chybx.hobbies));
+        System.out.println("Fun Fact: " + chybx.funFact);
     }
 }
 ```
